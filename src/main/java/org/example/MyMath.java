@@ -33,7 +33,7 @@ public class MyMath {
         return 0;
     }
     //3
-    public double sQ(double number){
+    public double findSquare(double number){
 
         double t;
         double squareRoot = number / 2;
@@ -43,6 +43,7 @@ public class MyMath {
             squareRoot=(t+(number/t))/2;
         }
         while ((t-squareRoot)!= 0);
+
         return squareRoot;
 
     }
